@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import api from '../../api';
-import PasswordStrength from './PasswordStrength';
 
 const Login = () => {
   const navigate = useNavigate();
