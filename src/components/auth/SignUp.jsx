@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import api from '../../api';
 import UsernameModal from './UsernameModal';
-import PasswordStrength from './PasswordStrength';
+
 
 const SignUp = () => {
   const navigate = useNavigate();
